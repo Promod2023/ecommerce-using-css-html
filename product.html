@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce project</title>
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="common.css"/>
+    <link rel="stylesheet" href="header.css"/>
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="product.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+  </head>
+  <body>
+    <i class="fas fa-bars fa-2x" id="menuIcon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="navUpper flexSpaceAround">
+        <li class="navList"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navList"><a href="register.html" class="navLink">Register</a></li>
+        <li class="navList"><a href="login.html" class="navLink">Login</a></li>
+        <li class="navList"><a href="index.html" class="navLink">Logout</a></li>
+        <li class="navList"><a href="contact.html" class="navLink">Contact</a></li>
+        <li class="navList"><a href="profile.html" class="navLink"><img src= "./images/profile3.jpg" class= "profileIcon" alt= "profile" /></a></li>
+      </ul>
+      <ul class="navLower flexSpaceAround">
+        <li class="navList"> <a href="index.html" class="navLink navBrand">Ahenjita Express</a> </li>
+        <li class="navList"><a href="cart.html" class="navLink"><span> <i class="fa-solid fa-cart-shopping"></i> Cart 2 Products - $124.40 </span></a></li>
+      </ul>
+    </nav>
+
+    <main class="flexCenter">
+      <div class="mainContent">
+        <section class="productDetails flexCenter">
+          <div class="productDetailsLeft flexCenter">
+            <img src="./images/product1.jpg" class="productDetailsImg" alt="product1" />
+          </div>
+          <div class="productDetailsRight">
+            <h3 class="productName">Sony V-4 Headphone</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="productDescription"> <strong>Description: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquid dolore facere eligendi repudiandae, hic cupiditate, laborum corrupti qui autem labore ipsum quod nostrum amet nemo voluptate iusto, assumenda magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio dolor harum tenetur mollitia aliquam quasi, voluptate atque blanditiis perferendis natus veniam nisi qui at perspiciatis ipsum, sapiente animi repellat aut asperiores, porro quidem velit tempore! Praesentium ipsa veniam consectetur laborum laboriosam consequuntur reprehenderit vero tempora, quasi et incidunt earum tempore harum nemo. Voluptatibus eius dolores tenetur. Eaque totam aspernatur, sunt veritatis, iste quos itaque qui corrupti quas.</p>
+            <br />
+            <p class="productDescription"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vero repellendus, autem nobis veniam adipisci? Possimus molestias suscipit aspernatur earum nostrum nisi ipsa provident, enim sed odio mollitia nobis laborum sit magnam exercitationem ducimus quaerat commodi nulla impedit accusantium in. Porro sunt necessitatibus cumque, ea explicabo iste veritatis incidunt eligendi tempora error aperiam dignissimos similique. Repellat quia soluta ducimus earum voluptatum nesciunt ipsa ad ullam suscipit, laborum animi, necessitatibus sequi maxime non nemo fuga incidunt reprehenderit harum provident totam nostrum ut beatae repellendus? Consequatur dignissimos consequuntur doloribus pariatur error accusamus ullam eius at esse sit! Explicabo harum facilis natus veritatis!</p>
+            <h4 class="productCategory">Category: Headphone</h4>
+            <h4 class="productPrice"><strong>Price:</strong> $225.99</h4>
+            <p class="productRating"><strong>Rating:</strong> 4.5/5</p>
+            <button class="btn productBtn">Add To Cart</button>
+            <button class="btn productBtn">Back To Shopping</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer flexSpaceAround">
+      <div class="flexSpaceAround">
+        <label for="subscribe" class="footerLevel">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="subscribe" class="footerInput" placeholder="Your Email Address" />
+        <button class="btn btnSubscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Anis Express. All rights rserved</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

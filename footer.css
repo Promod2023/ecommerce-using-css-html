@@ -1,0 +1,24 @@
+.footer {
+    min-height: 10vh;
+    padding: var(--padding);
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.1rem;
+  }
+.btnSubscribe {
+    margin-left: -5px;
+    border: 1px solid;
+    padding: 0.55rem;
+  } 
+.footerInput {
+    border: none;
+    padding: var(--padding);
+    width: 15rem;
+}
+.footerLevel {
+    padding: var(--padding);
+}
+
+/*.footer p {
+    color: #000;
+}*/

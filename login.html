@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <i class="fas fa-bars fa-2x" id="menuIcon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="navUpper flexSpaceAround">
+        <li class="navList"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navList"><a href="register.html" class="navLink">Register</a></li>
+        <li class="navList"><a href="login.html" class="navLink">Login</a></li>
+        <li class="navList"><a href="index.html" class="navLink">Logout</a></li>
+        <li class="navList"><a href="contact.html" class="navLink">Contact</a></li>
+        <li class="navList"><a href="profile.html" class="navLink"><img src= "./images/profile3.jpg" class= "profileIcon" alt= "profile" /></a></li>
+      </ul>
+      <ul class="navLower flexSpaceAround">
+        <li class="navList"> <a href="index.html" class="navLink navBrand">Ahenjita Express</a> </li>
+        <li class="navList"><a href="cart.html" class="navLink"><span> <i class="fa-solid fa-cart-shopping"></i> Cart 2 Products - $124.40 </span></a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="login">
+        <h2 class="sectionTitle textCenter">User login</h2>
+        <div class="card">
+          <form class="form">
+            <div class="formControl flexCenter">
+              <label for="email">Email</label>
+              <input type="email" id="email" required autocomplete="email" />
+            </div>
+            <div class="formControl flexCenter">
+              <label for="password">Password</label>
+              <input type="password" id="password" required autocomplete="password" />
+            </div>
+            <div class="formControl flexCenter formBtnField">
+              <button type="submit" class="btn contactBtn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer flexSpaceAround">
+      <div class="flexSpaceAround">
+        <label for="subscribe" class="footerLevel">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="subscribe" class="footerInput" placeholder="Your Email Address" />
+        <button class="btn btnSubscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Anis Express. All rights rserved</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

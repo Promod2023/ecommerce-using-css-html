@@ -1,0 +1,47 @@
+#menuIcon {
+    display: none;
+}
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.navUpper {
+    min-height: 20vh;
+    background-color: var(--primary-color);
+    padding: var(--padding);
+}
+.navList {
+    transition: var(--transition);
+}
+.navList:hover {
+    text-decoration: overline;
+}
+.navLink {
+    color: rgb(5, 5, 5);
+    transition: var(--transition);
+}
+.navLink:hover {
+    color: rgb(255, 255, 255);
+}
+.profileIcon {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: white 1px solid;
+    filter: saturate(1);
+}
+.profileIcon:hover {
+    filter: saturate(0);
+} 
+.navLower {
+    min-height: 10vh;
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+}
+.navBrand {
+    font-size: 1.2rem;
+}

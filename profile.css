@@ -1,0 +1,19 @@
+.profile {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .profile .card {
+    flex-direction: column;
+    width: 30rem;
+    padding: var(--padding);
+    gap: 1rem;
+  }
+  .profileImg {
+    width: 15vw;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+  .profileButtons button {
+    background-color: transparent;
+  }
