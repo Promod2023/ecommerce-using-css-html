@@ -2,34 +2,34 @@
     padding: var(--padding);
     gap: 1rem;
   }
-  .cart__items {
+  .cartItems {
     flex: 1;
   }
   .cart .card {
     margin-bottom: 1rem;
   }
-  .cart__items-action {
+  .cartItemsAction {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .cart__item input {
+  .cartItem input {
     flex: 0.1;
   }
-  .cart__item-img {
+  .cartItemImg {
     flex: 0.2;
     width: 15rem;
     height: 10rem;
   }
-  .cart__item-description {
+  .cartItemDescription {
     flex: 0.4;
   }
-  .cart__item-shipping {
+  .cartItemShipping {
     margin-top: 0.5rem;
     color: red;
   }
-  .cart__item-actions {
+  .cartItemActions {
     flex: 0.3;
     display: flex;
     flex-direction: column;
@@ -38,23 +38,23 @@
     gap: 1rem;
   }
   
-  .cart__payment {
+  .cartPayment {
     flex: 1;
   }
-  .cart__payment-summary > div {
+  .cartPaymentSummary > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
   }
-  .cart__payment-btn {
+  .cartPaymentBtn {
     width: 100%;
   }
-  .cart__payment-methods > h2 {
+  .cartPaymentMethods > h2 {
     text-align: center;
     margin-bottom: 1rem;
   }
-  .cart__payment-methods > div {
+  .cartPaymentMethods > div {
     display: flex;
     justify-content: center;
     align-items: center;
